@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2AR-18C" package="QFN88" speed="8" partNumber="GW2AR-LV18QN88C8/I7"/>
+    <FileList>
+        <File path="D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\pcf8574_keys.v" type="verilog"/>
+        <File path="D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\play_core.v" type="verilog"/>
+        <File path="D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\follow_rhythm_score.v" type="verilog"/>
+        <File path="D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\instrument_ctrl_uart.v" type="verilog"/>
+        <File path="D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\upload_uart.v" type="verilog"/>
+        <File path="D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\phone_control_bridge.v" type="verilog"/>
+        <File path="D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\upload_sd_bridge.v" type="verilog"/>
+        <File path="D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\lcd_menu_keys.v" type="verilog"/>
+        <File path="D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\lcd_menu_pixels.v" type="verilog"/>
+        <File path="D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\lcd_cover_ram.v" type="verilog"/>
+        <File path="D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\lcd_notes_480x272.v" type="verilog"/>
+        <File path="D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\sd_spi_reader.v" type="verilog"/>
+        <File path="D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\sd_wav_player.v" type="verilog"/>
+        <File path="D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\play_lcd_top.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="global_freq" value="100.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\impl\gwsynthesis\httm_sd_follow.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="top_module" value="play_lcd_top"/>
+        <Option type="vcc" value="1.0"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

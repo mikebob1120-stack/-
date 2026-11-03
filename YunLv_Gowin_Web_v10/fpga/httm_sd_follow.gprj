@@ -1,0 +1,25 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2AR-18C" pn="GW2AR-LV18QN88C8/I7">gw2ar18c-000</Device>
+    <FileList>
+        <File path="rtl/pcf8574_keys.v" type="file.verilog" enable="1"/>
+        <File path="rtl/play_core.v" type="file.verilog" enable="1"/>
+        <File path="rtl/follow_rhythm_score.v" type="file.verilog" enable="1"/>
+        <File path="rtl/instrument_ctrl_uart.v" type="file.verilog" enable="1"/>
+        <File path="rtl/upload_uart.v" type="file.verilog" enable="1"/>
+        <File path="rtl/phone_control_bridge.v" type="file.verilog" enable="1"/>
+        <File path="rtl/upload_sd_bridge.v" type="file.verilog" enable="1"/>
+        <File path="rtl/lcd_menu_keys.v" type="file.verilog" enable="1"/>
+        <File path="rtl/lcd_menu_pixels.v" type="file.verilog" enable="1"/>
+        <File path="rtl/lcd_cover_ram.v" type="file.verilog" enable="1"/>
+        <File path="rtl/lcd_notes_480x272.v" type="file.verilog" enable="1"/>
+        <File path="rtl/sd_spi_reader.v" type="file.verilog" enable="1"/>
+        <File path="rtl/sd_wav_player.v" type="file.verilog" enable="1"/>
+        <File path="rtl/play_lcd_top.v" type="file.verilog" enable="1"/>
+        <File path="constraints/play_lcd.cst" type="file.cst" enable="1"/>
+        <File path="constraints/play_lcd.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>

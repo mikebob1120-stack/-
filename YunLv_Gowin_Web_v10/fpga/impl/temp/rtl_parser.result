@@ -1,0 +1,162 @@
+[
+ {
+  "InstFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/instrument_ctrl_uart.v",
+  "InstLine" : 4,
+  "InstName" : "instrument_ctrl_uart",
+  "ModuleFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/instrument_ctrl_uart.v",
+  "ModuleLine" : 4,
+  "ModuleName" : "instrument_ctrl_uart",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/instrument_ctrl_uart.v",
+    "InstLine" : 26,
+    "InstName" : "link",
+    "ModuleFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/upload_uart.v",
+    "ModuleLine" : 5,
+    "ModuleName" : "upload_uart"
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/play_lcd_top.v",
+  "InstLine" : 2,
+  "InstName" : "play_lcd_top",
+  "ModuleFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/play_lcd_top.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "play_lcd_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/play_lcd_top.v",
+    "InstLine" : 87,
+    "InstName" : "phone",
+    "ModuleFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/phone_control_bridge.v",
+    "ModuleLine" : 5,
+    "ModuleName" : "phone_control_bridge",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/phone_control_bridge.v",
+      "InstLine" : 76,
+      "InstName" : "uart",
+      "ModuleFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/upload_uart.v",
+      "ModuleLine" : 5,
+      "ModuleName" : "upload_uart"
+     },
+     {
+      "InstFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/phone_control_bridge.v",
+      "InstLine" : 84,
+      "InstName" : "storage",
+      "ModuleFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/upload_sd_bridge.v",
+      "ModuleLine" : 8,
+      "ModuleName" : "upload_sd_bridge",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/upload_sd_bridge.v",
+        "InstLine" : 44,
+        "InstName" : "disk",
+        "ModuleFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/sd_spi_reader.v",
+        "ModuleLine" : 4,
+        "ModuleName" : "sd_spi_reader"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/play_lcd_top.v",
+    "InstLine" : 104,
+    "InstName" : "controls",
+    "ModuleFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/lcd_menu_keys.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "lcd_menu_keys",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/lcd_menu_keys.v",
+      "InstLine" : 26,
+      "InstName" : "s1",
+      "ModuleFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/lcd_menu_keys.v",
+      "ModuleLine" : 154,
+      "ModuleName" : "button_press"
+     },
+     {
+      "InstFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/lcd_menu_keys.v",
+      "InstLine" : 28,
+      "InstName" : "s2",
+      "ModuleFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/lcd_menu_keys.v",
+      "ModuleLine" : 154,
+      "ModuleName" : "button_press"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/play_lcd_top.v",
+    "InstLine" : 115,
+    "InstName" : "music",
+    "ModuleFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/sd_wav_player.v",
+    "ModuleLine" : 8,
+    "ModuleName" : "sd_wav_player",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/sd_wav_player.v",
+      "InstLine" : 43,
+      "InstName" : "card",
+      "ModuleFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/sd_spi_reader.v",
+      "ModuleLine" : 4,
+      "ModuleName" : "sd_spi_reader"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/play_lcd_top.v",
+    "InstLine" : 143,
+    "InstName" : "rhythm",
+    "ModuleFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/follow_rhythm_score.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "follow_rhythm_score"
+   },
+   {
+    "InstFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/play_lcd_top.v",
+    "InstLine" : 156,
+    "InstName" : "instrument",
+    "ModuleFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/play_core.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "play_core",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/play_core.v",
+      "InstLine" : 93,
+      "InstName" : "key_reader",
+      "ModuleFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/pcf8574_keys.v",
+      "ModuleLine" : 4,
+      "ModuleName" : "pcf8574_keys"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/play_lcd_top.v",
+    "InstLine" : 179,
+    "InstName" : "display",
+    "ModuleFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/lcd_notes_480x272.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "lcd_notes_480x272",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/lcd_notes_480x272.v",
+      "InstLine" : 202,
+      "InstName" : "start_menu",
+      "ModuleFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/lcd_menu_pixels.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "lcd_menu_pixels"
+     },
+     {
+      "InstFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/lcd_notes_480x272.v",
+      "InstLine" : 469,
+      "InstName" : "cover_memory",
+      "ModuleFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/lcd_cover_ram.v",
+      "ModuleLine" : 4,
+      "ModuleName" : "lcd_cover_ram"
+     }
+    ]
+   }
+  ]
+ }
+]

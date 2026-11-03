@@ -1,0 +1,11 @@
+ESP8266 网页版 v10
+
+1. 解压整个包。Arduino IDE 打开 fpga/esp8266_wifi_upload/esp8266_wifi_upload.ino。
+2. phone_assets.h 必须保留在同一文件夹。沿用原先的板型/端口烧录。
+3. 必须同时使用配套 v10 高云工程，旧 v7 不含手机控制接口。
+4. 手机连接 FPGA-MUSIC，密码 Music2026；无互联网时保持连接。
+5. 浏览器打开 http://192.168.4.1/，等待开发板已连接。
+6. 模式一同步 LCD；模式二自动进入 PLAY LIVE，支持八键多指弹奏。
+
+可选 BIN 仅适用 NodeMCU、4MB Flash、DIO、80MHz 配置，地址 0x00000。
+一般按原板型编译烧录 ino。实物联动尚需上板验证。

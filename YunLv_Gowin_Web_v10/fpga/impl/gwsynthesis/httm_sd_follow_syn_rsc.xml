@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="play_lcd_top" Register="23" Alu="26" Lut="24" T_Register="7261(23)" T_Alu="2068(26)" T_Lut="13315(24)" T_PADD18="1(0)" T_MULT9X9="10(0)" T_MULT18X18="12(0)" T_MULTALU36X18="3(0)" T_MULTADDALU18X18="6(0)" T_Bsram="43(0)" T_Ssram="87(0)">
+ <SubModule name="phone" Register="186" Alu="9" Lut="772" T_Register="1726(186)" T_Alu="99(9)" T_Lut="2910(772)" T_Bsram="1(0)">
+  <SubModule name="uart" Register="175" Alu="37" Lut="790" T_Register="175(175)" T_Alu="37(37)" T_Lut="790(790)"/>
+  <SubModule name="storage" Register="1099" Alu="28" Lut="810" Bsram="1" T_Register="1365(1099)" T_Alu="53(28)" T_Lut="1348(810)" T_Bsram="1(1)">
+   <SubModule name="disk" Register="266" Alu="25" Lut="538" T_Register="266(266)" T_Alu="25(25)" T_Lut="538(538)"/>
+  </SubModule>
+ </SubModule>
+ <SubModule name="controls" Register="76" Alu="40" Lut="159" T_Register="148(76)" T_Alu="102(40)" T_Lut="187(159)">
+  <SubModule name="s1" Register="36" Alu="31" Lut="14" T_Register="36(36)" T_Alu="31(31)" T_Lut="14(14)"/>
+  <SubModule name="s2" Register="36" Alu="31" Lut="14" T_Register="36(36)" T_Alu="31(31)" T_Lut="14(14)"/>
+ </SubModule>
+ <SubModule name="music" Register="2969" Alu="857" Lut="4795" PADD18="1" MULT18X18="3" MULTALU36X18="2" MULTADDALU18X18="1" Bsram="6" Ssram="64" T_Register="3235(2969)" T_Alu="882(857)" T_Lut="5325(4795)" T_PADD18="1(1)" T_MULT18X18="3(3)" T_MULTALU36X18="2(2)" T_MULTADDALU18X18="1(1)" T_Bsram="6(6)" T_Ssram="64(64)">
+  <SubModule name="card" Register="266" Alu="25" Lut="530" T_Register="266(266)" T_Alu="25(25)" T_Lut="530(530)"/>
+ </SubModule>
+ <SubModule name="rhythm" Register="162" Alu="227" Lut="316" T_Register="162(162)" T_Alu="227(227)" T_Lut="316(316)"/>
+ <SubModule name="instrument" Register="529" Alu="675" Lut="1829" MULT9X9="8" MULT18X18="9" MULTALU36X18="1" MULTADDALU18X18="4" Bsram="4" T_Register="648(529)" T_Alu="727(675)" T_Lut="2119(1829)" T_MULT9X9="8(8)" T_MULT18X18="9(9)" T_MULTALU36X18="1(1)" T_MULTADDALU18X18="4(4)" T_Bsram="4(4)">
+  <SubModule name="key_reader" Register="119" Alu="52" Lut="290" T_Register="119(119)" T_Alu="52(52)" T_Lut="290(290)"/>
+ </SubModule>
+ <SubModule name="display" Register="1313" Alu="5" Lut="1839" MULTADDALU18X18="1" Ssram="15" T_Register="1319(1313)" T_Alu="5(5)" T_Lut="2434(1839)" T_MULT9X9="2(0)" T_MULTADDALU18X18="1(1)" T_Bsram="32(0)" T_Ssram="23(15)">
+  <SubModule name="start_menu" Lut="533" MULT9X9="2" T_Lut="533(533)" T_MULT9X9="2(2)"/>
+  <SubModule name="cover_memory" Register="6" Lut="62" Bsram="32" Ssram="8" T_Register="6(6)" T_Lut="62(62)" T_Bsram="32(32)" T_Ssram="8(8)"/>
+ </SubModule>
+</Module>

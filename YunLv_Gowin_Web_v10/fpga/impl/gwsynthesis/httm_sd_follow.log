@@ -1,0 +1,62 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\pcf8574_keys.v'
+Analyzing Verilog file 'D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\play_core.v'
+Analyzing Verilog file 'D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\follow_rhythm_score.v'
+Analyzing Verilog file 'D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\instrument_ctrl_uart.v'
+Analyzing Verilog file 'D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\upload_uart.v'
+Analyzing Verilog file 'D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\phone_control_bridge.v'
+Analyzing Verilog file 'D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\upload_sd_bridge.v'
+Analyzing Verilog file 'D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\lcd_menu_keys.v'
+Analyzing Verilog file 'D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\lcd_menu_pixels.v'
+Analyzing Verilog file 'D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\lcd_cover_ram.v'
+Analyzing Verilog file 'D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\lcd_notes_480x272.v'
+Analyzing Verilog file 'D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\sd_spi_reader.v'
+Analyzing Verilog file 'D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\sd_wav_player.v'
+Analyzing Verilog file 'D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\play_lcd_top.v'
+Compiling module 'play_lcd_top'("D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\play_lcd_top.v":2)
+Compiling module 'phone_control_bridge'("D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\phone_control_bridge.v":5)
+Compiling module 'upload_uart'("D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\upload_uart.v":5)
+Compiling module 'upload_sd_bridge'("D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\upload_sd_bridge.v":8)
+Extracting RAM for identifier 'sector_buf'("D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\upload_sd_bridge.v":19)
+Compiling module 'sd_spi_reader'("D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\sd_spi_reader.v":4)
+Compiling module 'lcd_menu_keys'("D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\lcd_menu_keys.v":3)
+Compiling module 'button_press'("D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\lcd_menu_keys.v":154)
+Compiling module 'sd_wav_player'("D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\sd_wav_player.v":8)
+Extracting RAM for identifier 'sector_ram'("D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\sd_wav_player.v":54)
+Extracting RAM for identifier 'fat_ram'("D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\sd_wav_player.v":55)
+Extracting RAM for identifier 'sample_fifo'("D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\sd_wav_player.v":74)
+Extracting RAM for identifier 'score_ram'("D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\sd_wav_player.v":170)
+Compiling module 'follow_rhythm_score'("D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\follow_rhythm_score.v":2)
+Compiling module 'play_core(LED_EXPANDER_PRESENT=1,ADC_PRESENT=1,REMOTE_CONTROL=1)'("D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\play_core.v":2)
+Extracting RAM for identifier 'phase'("D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\play_core.v":217)
+Extracting RAM for identifier 'envelope'("D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\play_core.v":218)
+Extracting RAM for identifier 'env_state'("D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\play_core.v":223)
+Extracting RAM for identifier 'env_timer'("D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\play_core.v":224)
+Extracting RAM for identifier 'delay_line'("D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\play_core.v":238)
+Compiling module 'pcf8574_keys(LED_EXPANDER_PRESENT=1,ADC_PRESENT=1)'("D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\pcf8574_keys.v":4)
+Compiling module 'lcd_notes_480x272'("D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\lcd_notes_480x272.v":4)
+Compiling module 'lcd_menu_pixels'("D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\lcd_menu_pixels.v":3)
+Compiling module 'lcd_cover_ram'("D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\lcd_cover_ram.v":4)
+Extracting RAM for identifier 'pixels'("D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\lcd_cover_ram.v":19)
+Extracting RAM for identifier 'palette'("D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\rtl\lcd_cover_ram.v":20)
+NOTE  (EX0101) : Current top module is "play_lcd_top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\impl\gwsynthesis\httm_sd_follow.vg" completed
+[100%] Generate report file "D:\GOWIN_PJ\web_esp_startup_fix_v14\web\YunLv_Gowin_Web_v10\fpga\impl\gwsynthesis\httm_sd_follow_syn.rpt.html" completed
+GowinSynthesis finish

@@ -1,0 +1,69 @@
+{
+ "Device" : "GW2AR-18C",
+ "Files" : [
+  {
+   "Path" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/pcf8574_keys.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/play_core.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/follow_rhythm_score.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/instrument_ctrl_uart.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/upload_uart.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/phone_control_bridge.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/upload_sd_bridge.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/lcd_menu_keys.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/lcd_menu_pixels.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/lcd_cover_ram.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/lcd_notes_480x272.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/sd_spi_reader.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/sd_wav_player.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/rtl/play_lcd_top.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/GOWIN_PJ/web_esp_startup_fix_v14/web/YunLv_Gowin_Web_v10/fpga/impl/temp/rtl_parser.result",
+ "Top" : "play_lcd_top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

@@ -1,0 +1,81 @@
+// Tang Nano 20K rev 3923, LCD 480x272 and MAX98357A audio.
+// clk9m = MS5351 CLK0. clk24m = MS5351 CLK1.
+IO_LOC "clk9m" 10;
+IO_LOC "clk24m" 11;
+// Onboard S1/S2, active high after configuration; also MODE0/MODE1 straps.
+IO_LOC "btn_s1" 88;
+IO_LOC "btn_s2" 87;
+// ESP8266 UART via U10/U11 level translators on baseboard.
+IO_LOC "uart_rx" 71;
+IO_LOC "uart_tx" 72;
+// Tang onboard TF card in SPI mode; these pins are independent of RGB LCD.
+IO_LOC "sd_cs_n" 81;
+IO_LOC "sd_mosi" 82;
+IO_LOC "sd_sck" 83;
+IO_LOC "sd_miso" 84;
+IO_LOC "i2c_scl" 73;
+IO_LOC "i2c_sda" 74;
+// LCD FPC37-40 also connect FPGA pins 15-18 (touch electrodes).
+// Use onboard LED4/LED5 on pins 19/20 for diagnostics instead.
+IO_LOC "led_bus_n" 19;
+IO_LOC "led_key_n" 20;
+IO_LOC "pa_en" 51;
+IO_LOC "i2s_din" 54;
+IO_LOC "i2s_lrclk" 55;
+IO_LOC "i2s_bclk" 56;
+IO_LOC "lcd_bl" 49;
+IO_LOC "lcd_de" 48;
+IO_LOC "lcd_clk" 77;
+IO_LOC "lcd_r[0]" 42;
+IO_LOC "lcd_r[1]" 41;
+IO_LOC "lcd_r[2]" 40;
+IO_LOC "lcd_r[3]" 39;
+IO_LOC "lcd_r[4]" 38;
+IO_LOC "lcd_g[0]" 37;
+IO_LOC "lcd_g[1]" 36;
+IO_LOC "lcd_g[2]" 35;
+IO_LOC "lcd_g[3]" 34;
+IO_LOC "lcd_g[4]" 33;
+IO_LOC "lcd_g[5]" 32;
+IO_LOC "lcd_b[0]" 31;
+IO_LOC "lcd_b[1]" 30;
+IO_LOC "lcd_b[2]" 29;
+IO_LOC "lcd_b[3]" 28;
+IO_LOC "lcd_b[4]" 27;
+IO_PORT "clk9m" IO_TYPE=LVCMOS33;
+IO_PORT "clk24m" IO_TYPE=LVCMOS33;
+IO_PORT "btn_s1" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_PORT "btn_s2" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_PORT "uart_rx" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_PORT "uart_tx" IO_TYPE=LVCMOS33;
+IO_PORT "sd_cs_n" IO_TYPE=LVCMOS33;
+IO_PORT "sd_mosi" IO_TYPE=LVCMOS33;
+IO_PORT "sd_sck" IO_TYPE=LVCMOS33;
+IO_PORT "sd_miso" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_PORT "i2c_scl" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_PORT "i2c_sda" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
+IO_PORT "led_bus_n" IO_TYPE=LVCMOS33;
+IO_PORT "led_key_n" IO_TYPE=LVCMOS33;
+IO_PORT "pa_en" IO_TYPE=LVCMOS33;
+IO_PORT "i2s_din" IO_TYPE=LVCMOS33;
+IO_PORT "i2s_lrclk" IO_TYPE=LVCMOS33;
+IO_PORT "i2s_bclk" IO_TYPE=LVCMOS33;
+IO_PORT "lcd_bl" IO_TYPE=LVCMOS33;
+IO_PORT "lcd_de" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=24;
+IO_PORT "lcd_clk" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=24;
+IO_PORT "lcd_r[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=24;
+IO_PORT "lcd_r[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=24;
+IO_PORT "lcd_r[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=24;
+IO_PORT "lcd_r[3]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=24;
+IO_PORT "lcd_r[4]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=24;
+IO_PORT "lcd_g[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=24;
+IO_PORT "lcd_g[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=24;
+IO_PORT "lcd_g[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=24;
+IO_PORT "lcd_g[3]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=24;
+IO_PORT "lcd_g[4]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=24;
+IO_PORT "lcd_g[5]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=24;
+IO_PORT "lcd_b[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=24;
+IO_PORT "lcd_b[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=24;
+IO_PORT "lcd_b[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=24;
+IO_PORT "lcd_b[3]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=24;
+IO_PORT "lcd_b[4]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=24;
